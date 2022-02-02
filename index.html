@@ -8,10 +8,43 @@
         <title>Landing Page</title>
     </head>
     <body>
+        <header>
+            <nav>
+                <ul>
+                    <a href="#about me">
+                        <li>About Me</li>
+                    </a>
+                    <a href="">
+                        <li>Contact</li>
+                    </a>
+                    <a href="">
+                        <li>Menu</li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
         <h1>Welcome to my website!</h1>
-        <p>
-            test test
-        </p>
+        <section id="about me">
+            <img src="./assets/pizzaandwings.jpg"  width="500" alt="picture of pizza and wings">
+            <p class="Caption">
+                We are BrewPub Pizza and Wings! We have a variety of pizza styles and wing sauces!
+            </p>
+        </section>
+        <section>
+            <div class="contact-block">
+                <label for="name">Name</label>
+                <input type="text" id="name">
+            </div>
+            <div class="contact-block">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </div>
+            <div class="contact-block">
+            <label for="questions or feedback">Questions of Feedback</label>
+            <textarea name="feedback" id="feedback" cols="30" rows="10">Feedback</textarea>
+            </div>
+        </section>
+        
         <footer>
 
         </footer>
